@@ -18,7 +18,8 @@ case "$PRIMARY_CART" in
     client_message "Valid primary cartridge detected."
     CONFIG_SUFFIX=$PRIMARY_CART
     ;;
-  wildfly*)
+
+  wildfly)
     client_message "Valid primary cartridge detected."
     CONFIG_SUFFIX=$PRIMARY_CART
     ;;
